@@ -7,15 +7,18 @@
 dummy(x, y = 1L)
 }
 \arguments{
-\item{x}{Integer to increment Required.}
+\item{x}{Integer to increment.  Required.}
 
-\item{y}{Amount to increment.  Defaults to 1. Required.}
+\item{y}{Amount to increment.  Defaults to 1. Required integer.}
 }
 \value{
-An \link[base:integer]{base::integer}
+A \link[base:integer]{base::integer} that is incremented by \code{y}.
 }
 \description{
-"Description" is a series of complete sentence
+"Description" is a series of complete sentences.
+See https://r-pkgs.org/man.html.
+Keep these documentation lines under 80 or 100 characters
+(I forgot which )
 }
 \details{
 Adds one.
@@ -27,6 +30,7 @@ Use "note" for something more obscure than a "description"?
 dummy(0L)
 dummy(1L)
 dummy(0L, 2L)
+
 }
 \author{
 Yutian Thompson
