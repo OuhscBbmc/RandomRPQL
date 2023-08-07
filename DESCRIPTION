@@ -9,8 +9,14 @@ Authors@R: c(person("Yutian", "Thompson", role = c("aut", "cre"), email =
 URL: https://ouhscbbmc.github.io/RandomRPQL/, https://github.com/OuhscBbmc/RandomRPQL, https://www.ouhsc.edu/bbmc/
 BugReports: https://github.com/OuhscBbmc/RandomRPQL/issues
 Depends:
-    R(>= 4.1.0)
+    R(>= 4.0.0)
 Imports:
+    data.table,
+    gtools,
+    lme4,
+    PlackettLuce,
+    rpql,
+    stats,
     checkmate (>= 2.0),
     dplyr (>= 1.0),
     methods,
@@ -28,7 +34,7 @@ Suggests:
 License: MIT + file LICENSE
 VignetteBuilder: knitr
 Encoding: UTF-8
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Roxygen: list(markdown = TRUE)
 Config/testthat/edition: 3
 Language: en-US
