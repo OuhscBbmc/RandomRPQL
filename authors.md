@@ -14,14 +14,14 @@
 Source:
 [`DESCRIPTION`](https://github.com/OuhscBbmc/RandomRPQL/blob/main/DESCRIPTION)
 
-Thompson Y, Li Y (2025). *RandomRPQL: Variable selection method for
+Thompson Y, Li Y (2026). *RandomRPQL: Variable selection method for
 GLMMs*. R package version 0.1.9001,
 <https://ouhscbbmc.github.io/RandomRPQL/>.
 
     @Manual{,
       title = {RandomRPQL: Variable selection method for GLMMs},
       author = {Yutian Thompson and Yaqi Li},
-      year = {2025},
+      year = {2026},
       note = {R package version 0.1.9001},
       url = {https://ouhscbbmc.github.io/RandomRPQL/},
     }
